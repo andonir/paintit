@@ -1,0 +1,36 @@
+body{
+    background-color: #FFD700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    background-color: #fff;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+.container h1{
+    color: rgba(38, 172, 255, 0.8);
+}
+#canvas{
+    border: 3px solid rgba(38, 172, 255, 0.8);
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputs i{
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid black;
+    transition: background .3s;
+}
+.inputs i:hover, .inputs input:hover{
+    cursor: pointer;
+}
+.true{
+    background-color: rgba(38, 172, 255, 0.8) !important;
+}
