@@ -83,3 +83,13 @@ eraser.addEventListener('click', ()=>{
 
     }
 })
+eraser.addEventListener('touchend', ()=>{
+    if (delAllowed){
+      delAllowed = false;  
+        eraser.classList.toggle('true');
+    }else{
+        delAllowed = true;
+        eraser.classList.toggle('true');
+
+    }
+})
